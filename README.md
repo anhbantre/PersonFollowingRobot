@@ -13,6 +13,16 @@ Applied techniques:
     <img src="imgs/personfollowingrobot.png" width="70%"/>
 </div>
 
+## Hardward specs
+
+- Battery: 18650, 18 cells, 24V 7800mAh
+- Voltage Regulator Circuit: 5V-5A
+- Motor Driver: Planet 24VDC 60W 600RPM
+- H-Bridge Driver
+- Camera: Intel RealSense Depth D455
+- Microcontroller: STM32F103C8T6
+- Board Computer: Jetson Nano
+
 ## Recognizing floor
 
 The 3D vision algorithms can recognize various types of floors and in different lighting conditions.
