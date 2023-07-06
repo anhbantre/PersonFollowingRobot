@@ -2,7 +2,7 @@
 Person Following Robot - Smart Trolley utilizing Artificial Intelligence (AI) and 3D vision
 ---
 
-This project will introduce a Person Following Robot can follow a person on various complex floors in indoor environments under many challenging: illuminating conditions, pose changes, occlusions, transiently losing the target, the target being covered, etc... 
+This project will introduce a Person Following Robot that can follow a person on various complex floors in indoor environments under many challenges: illuminating conditions, pose changes, occlusions, transiently losing the target, the target being covered, etc... 
 
 Applied techniques:
 - Deep Learning: Object Detection and Single Object Tracking with Vision Transformer
@@ -13,7 +13,7 @@ Applied techniques:
     <img src="imgs/personfollowingrobot.png" width="70%"/>
 </div>
 
-## Hardward specs
+## Hardware specs
 
 - Battery: 18650, 18 cells, 24V 7800mAh
 - Voltage Regulator Circuit: 5V-5A
@@ -41,9 +41,9 @@ The 3D vision algorithms can recognize various types of floors and in different 
     <img src="imgs/processed_floor4.png" width="20%"/>
 </div> 
 
-## Detection and tracking people
+## Detection and people tracking
 
-We used a pre-trained model available in [jetson-inference](https://github.com/dusty-nv/jetson-inference) to detect people. [Stark](https://github.com/researchmm/Stark) is a single object tracking model using Vision Transformer that we experenced on my laptop to track one person in the frame in different complex cases. All models were converted to TensorRT to accelerate inference speed.
+To detect people, we used a pre-trained model available in [jetson-inference](https://github.com/dusty-nv/jetson-inference). [Stark](https://github.com/researchmm/Stark) is a single object tracking model using Vision Transformer that we experienced on my laptop to track one person in the frame in different complex cases. All models were converted to TensorRT to accelerate inference speed.
 
 <div align="center">
     <img src="imgs/detection.png" width="20%" height="250"/>
